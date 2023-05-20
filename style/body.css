@@ -101,8 +101,13 @@ input[type=text],
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    transition: 0.5s ease;
 }
 
+.profile2:hover {
+    background-color: rgb(179, 124, 147);
+    transform: scale(1.2);
+}
 
 .txt {
     display: none;
