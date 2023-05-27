@@ -77,7 +77,8 @@ form {
 
 
 input[type=text],
-[type=email] {
+[type=email],
+[type=password] {
     width: 90%;
     justify-content: center;
     padding: 12px 20px;
@@ -85,10 +86,6 @@ input[type=text],
     box-sizing: border-box;
     border-radius: 5px;
 }
-
-/* .field { */
-/* margin-bottom: 25px; */
-/* } */
 
 
 .profile2 {
@@ -180,10 +177,7 @@ p a {
     }
 
     .text p {
-        height: 60px;
-        text-align: center;
-        align-items: center;
         display: flex;
-        justify-content: center;
+        text-align: center;
     }
 }
